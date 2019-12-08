@@ -16,7 +16,7 @@
         <h1>${requestScope.name}</h1>
         <ul>
             <c:forEach var="color" items="${requestScope.colors}">
-                <li style="color:${color}">${colors}</li>
+                <li style="color:${color}">${color}</li>
             </c:forEach>
         </ul>
     </body>
