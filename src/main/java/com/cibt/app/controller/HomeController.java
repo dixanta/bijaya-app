@@ -33,5 +33,10 @@ public class HomeController{
         return "<h1>About Us</h1>";
     }
     
+    @GetMapping(value = "/services")
+    public @ResponseBody String services(){
+        return "<h1>Services Page</h1>";
+    }
+    
     
 }
